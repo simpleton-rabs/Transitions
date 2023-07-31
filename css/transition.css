@@ -35,6 +35,7 @@ p{
     border-radius: 50%;
     /* Default original position of disk - Wouldn't this default to 0 position? Not for transition to work we must have original position set*/
     transform: translateX(0px);
+    /* background-image: url('images/moon.png'); */
 }
 
 .disk:active{
