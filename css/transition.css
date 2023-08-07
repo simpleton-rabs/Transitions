@@ -34,19 +34,21 @@ p{
     height: 60px;
     border-radius: 50%;
     /* Default original position of disk - Wouldn't this default to 0 position? Not for transition to work we must have original position set*/
-    transform: translateX(0px), rotatez(0deg); 
+    /* transform: translateX(0px), rotatez(0deg); */
+    transform: translateX(0px) rotatez(0deg); 
     /* opacity: 25%; */
     background-image: url("../images/moon.png");
 }
 
 .disk:active{
-    transform: translateX(400px), rotatez(360deg);
+    transform: translateX(400px) rotatez(360deg);
 }
 
 /* Standard Ease */
 #disk1{
     background-color: red;
     transition: transform 2s;
+    colo
     
 
 }
