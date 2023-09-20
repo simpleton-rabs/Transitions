@@ -24,7 +24,7 @@ p{
 }
 
 #container{
-    width: 470px;
+    width: 500px;
     border: 1px solid;
     padding: 20px;
 }
@@ -48,7 +48,6 @@ p{
 #disk1{
     background-color: red;
     transition: transform 2s;
-    colo
     
 
 }
@@ -76,3 +75,16 @@ p{
     background-color: blue;
     transition: transform 2s ease-in-out;
 }
+
+/* Cubic Bezier 1 */
+#disk6{
+    background-color: indigo;
+    transition: transform 2s ease-in-out;
+}
+
+/* Cubic Bezier 2 */
+#disk7{
+    background-color: violet;
+    transition: transform 2s ease-in-out;
+}
+
