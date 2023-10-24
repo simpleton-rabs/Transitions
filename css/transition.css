@@ -30,15 +30,15 @@ p{
 }
 
 .disk{
-    width: 60px;
-    height: 60px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     /* Default original position of disk - Wouldn't this default to 0 position? Not for transition to work we must have original position set*/
     /* transform: translateX(0px), rotatez(0deg); */
     /* transform:  */
     translateX(0px) rotatez(0deg); 
     /* opacity: 25%; */
-    background-image: url("../images/moon.png");
+    background-image: url("../images/eye.png");
 }
 
 .disk:active{
@@ -48,7 +48,7 @@ p{
 /* Standard Ease */
 #disk1{
     background-color: red;
-    transition: transform 2s;
+    transition: transform 4s;
     
 
 }
@@ -56,36 +56,36 @@ p{
 /* linear  */
 #disk2{
     background-color: orange;
-    transition: transform 2s linear;
+    transition: transform 4s linear;
 }
 
 /* ease in */
 #disk3{
     background-color: yellow;
-    transition: transform 2s ease-in;
+    transition: transform 4s ease-in;
 }
 
 /* ease out */
 #disk4{
     background-color: green;
-    transition: transform 2s ease-out;
+    transition: transform 4s ease-out;
 }
 
 /* ease in out */
 #disk5{
     background-color: blue;
-    transition: transform 2s ease-in-out;
+    transition: transform 4s ease-in-out;
 }
 
 /* Cubic Bezier 1 */
 #disk6{
     background-color: indigo;
-    transition: transform 2s ease-in-out;
+    transition: transform 4s cubic-bezier(1,-0.73,.45,.56);
 }
 
 /* Cubic Bezier 2 */
 #disk7{
     background-color: violet;
-    transition: transform 2s ease-in-out;
+    transition: transform 4s cubic-bezier(1,2.12,.9,-2.03);
 }
 
