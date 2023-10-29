@@ -43,8 +43,8 @@ p{
 
 .disk:active{
     transform: translateX(400px) rotatez(360deg);
-    /* background-image: url("../images/facet.png"); */
-    /* transition: background-image 10s; */
+    background-image: url("../images/facet.png");
+    transition: background-image 5s;
 }
 
 /* Standard Ease */
