@@ -44,14 +44,13 @@ p{
 .disk:active{
     transform: translateX(400px) rotatez(360deg);
     background-image: url("../images/facet.png");
-    transition: background-image 5s;
+    /*transition: background-image 5s; */
 }
 
 /* Standard Ease */
 #disk1{
     background-color: red;
-    transition: transform 4s;
-    
+    transition: transform 4s, background-image 5s;
 
 }
 
