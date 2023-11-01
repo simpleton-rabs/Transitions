@@ -38,7 +38,7 @@ p{
     /* transform:  */
     translateX(0px) rotatez(0deg); 
     /* opacity: 25%; */
-    background-image: url("../images/face.png");
+    background-image: url("../images/facea.png");
 }
 
 .disk:hover{
@@ -46,7 +46,7 @@ p{
 }
 .disk:active{
     transform: translateX(400px) rotatez(360deg);
-    background-image: url("../images/facet.png");
+    background-image: url("../images/facec.png");
     /*transition: background-image 5s; */
 }
 
@@ -71,19 +71,19 @@ p{
 
 /* ease out */
 #disk4{
-    background-color: green;
+    background-color: greenyellow;
     transition: transform 4s ease-out;
 }
 
 /* ease in out */
 #disk5{
-    background-color: blue;
+    background-color: turquoise;
     transition: transform 4s ease-in-out;
 }
 
 /* Cubic Bezier 1 */
 #disk6{
-    background-color: indigo;
+    background-color: plum;
     transition: transform 4s cubic-bezier(1,-0.73,.45,.56);
 }
 
