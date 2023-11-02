@@ -83,13 +83,13 @@ p{
 
 /* Cubic Bezier 1 */
 #disk6{
-    background-color: plum;
+    background-color: blueviolet;
     transition: transform 4s cubic-bezier(1,-0.73,.45,.56);
 }
 
 /* Cubic Bezier 2 */
 #disk7{
-    background-color: violet;
+    background-color: violet    ;
     transition: transform 4s cubic-bezier(1,2.12,.9,-2.03);
 }
 
