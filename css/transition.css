@@ -7,11 +7,11 @@
 
 
 body{
-    /* background-color: blue; */
+    
     /* body as flex container with child elements centered vertically and horizontally */
     display: flex;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
     /* viewpoint height is relative - vh is equivalent to 1% of viewpoint height - without this body defaults to height of child elements */
     height: 100vh;
 }
@@ -24,6 +24,7 @@ p{
 }
 
 #container{
+    background-color: linen;
     width: 500px;
     border: 1px solid;
     padding: 20px;
@@ -36,25 +37,27 @@ p{
     /* Default original position of disk - Wouldn't this default to 0 position? Not for transition to work we must have original position set*/
     /* transform: translateX(0px), rotatez(0deg); */
     /* transform:  */
-    translateX(0px) rotatez(0deg); 
-    /* opacity: 25%; */
+    /* translateX(0px) rotatez(0deg);  */
+    /* neutral face before any interaction*/
     background-image: url("../images/facea.png");
 }
 
 .disk:hover{
+    /* stick out tongue whilst hovering*/
     background-image: url("../images/faceb.png");
 }
+
 .disk:active{
+    /* translate to end position and set disk to rotate 360 so looks like it rolls to end position */
     transform: translateX(400px) rotatez(360deg);
+    /* smile face while clicked on*/
     background-image: url("../images/facec.png");
-    /*transition: background-image 5s; */
 }
 
 /* Standard Ease */
 #disk1{
     background-color: red;
     transition: transform 4s;
-
 }
 
 /* linear  */
